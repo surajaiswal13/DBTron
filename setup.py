@@ -13,7 +13,7 @@ HERE = pathlib.Path(__file__).parent
 #     long_description = "\n" + fh.read()
 README = (HERE / "README.md").read_text()
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 DESCRIPTION = 'A Package Which allows to access and perform Operations on Different Relational and Non-Relational DataBases '
 # LONG_DESCRIPTION = 'A Package that allows to access Cloud as well as Local Databases and allows user to Performs Operationusing prebuilt functions Currently the available Databases are MySql and MongoDB.'
 

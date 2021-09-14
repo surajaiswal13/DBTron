@@ -14,6 +14,8 @@ class MongoDBOps:
             self.url = url
             self.password = password
             # self.url = 'localhost:27017'
+            if '<password>' in url:
+                self.url = self.url.replace('<password>','root')
         except Exception as e:
             raise Exception(f"(__init__): Something went wrong on initiation process\n" + str(e))
 
